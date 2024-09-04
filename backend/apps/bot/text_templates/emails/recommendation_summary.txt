@@ -1,0 +1,6 @@
+## {proposal_title}
+{proposal_body}
+## Diplomat Recommendation
+{diplomat_recommendation}
+## Usage
+{total_tokens} tokens

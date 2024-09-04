@@ -1,0 +1,22 @@
+query Spaces {{
+    spaces(where: {{id: "{space_id}"}}) {{
+        id
+        name
+        about
+        network
+        symbol
+        strategies {{
+            name
+            network
+            params
+        }}
+        admins
+        moderators
+        members
+        filters {{
+            minScore
+            onlyMembers
+        }}
+        plugins
+    }}
+}}
